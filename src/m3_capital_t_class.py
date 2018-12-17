@@ -171,7 +171,6 @@ class CapitalT(object):
         #   Note: Implement   attach_to   before testing this __init__ method.
         # ---------------------------------------------------------------------
         add = letter_thickness/2
-        down = height/2
         side = width/2
         self.h_rect = rg.Rectangle(rg.Point(intersection_center.x-side,intersection_center.y+add),rg.Point(intersection_center.x+side,intersection_center.y-add))
         self.v_rect = rg.Rectangle(rg.Point(intersection_center.x-add,intersection_center.y-add),rg.Point(intersection_center.x+add,intersection_center.y+height-add))
